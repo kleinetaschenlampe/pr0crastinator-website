@@ -1,0 +1,83 @@
+@media(min-width: 1150px){
+    article {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    }
+    .screenshot {
+	width: 48%;
+    }
+}
+
+
+body {
+    background: #eeeeee;
+    font-family: 'Advent Pro';
+    font-size: 14pt;
+}
+
+h1 {
+    text-align: left;
+    font-size: 40pt;
+    padding: 0px;
+    margin: 12px;
+    border: none;
+}
+
+
+.screenshot {
+    border: solid 1px #555;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.screenshot img {
+    border: solid 3px lightgreen;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#navbar {
+    position: sticky;
+    top: 10px;
+    list-style-type: none;
+    margin: 12px;
+    padding: 0;
+    overflow: hidden;
+    border: solid 1px #555;
+    border-radius: 20px;
+    width: 98%;
+    font-size: 12pt;
+}
+
+.navbaritem {
+    float: left;
+    width: 25%;
+}
+
+p {
+    float: none;
+}
+
+
+.navbaritem .navbarlink{
+    color: #000;
+    background: white;
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navbaritem .active {
+    background: lightgreen;
+}
+
+.navbaritem .navbarlink:hover{
+    background-color: #555;
+    color: white;
+}
